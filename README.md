@@ -1,1 +1,1 @@
-# Elecoptima
+# Elecoptima - optimizing electricity with iot and ml
