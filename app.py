@@ -26,7 +26,7 @@ import dash_core_components as dcc
 import plotly.express as px
 
 app = dash.Dash(__name__)
-app.title = 'Electra.AI'
+app.title = 'ElecOptima'
 
 party_data = []
 for x in ['Time-Series Plot', 'Appliance-wise Consumption', 'Electricity Consumption Forecast', 'Faulty Devices']:
@@ -38,7 +38,7 @@ app.layout = html.Div(children=[
                   html.Div(className='row',  # Define the row element
                            children=[
                               html.Div(className='four columns div-user-controls', children = [
-    html.H2('Electra.AI Dashboard', style={'font-family':'Trebuchet MS'}),
+    html.H2('ElecOptima Dashboard', style={'font-family':'Trebuchet MS'}),
      html.Div(className='div-for-dropdown',
           children=[
               dcc.Dropdown(id='stockselector',
